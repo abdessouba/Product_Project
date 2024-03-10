@@ -1,0 +1,33 @@
+.toggle{
+    animation: toggle 0.5s  forwards;
+}
+@keyframes toggle {
+    from{
+        right: -130px;
+    }
+    to{
+        right: 5px;
+    }
+}
+.hr{
+    animation: fillWidth 4s .5s;
+}
+@keyframes fillWidth {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0%;
+    }
+}
+.toggle{
+    animation: invisible 0.1s 4s  forwards;
+}
+@keyframes invisible {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
